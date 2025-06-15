@@ -1,0 +1,139 @@
+/* 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2572b5;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  z-index: 1000;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo {
+  font-size: 25px;
+  font-family: 'Times New Roman';
+}
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: black;
+}
+
+.resume-button {
+  color: #2572b5;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  text-decoration: none;
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+}
+
+.resume-button:hover {
+  color: #000;
+  border-color: #000;
+} */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2572b5;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  z-index: 1000;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo {
+  font-size: 25px;
+  font-family: 'Times New Roman';
+}
+
+/* Hamburger Icon */
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: black;
+}
+
+.resume-button {
+  color: #2572b5;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  text-decoration: none;
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+}
+
+.resume-button:hover {
+  color: #000;
+  border-color: #000;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 65px;
+    right: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #2572b5;
+    padding: 10px 20px;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin-bottom: 10px;
+  }
+}

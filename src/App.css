@@ -1,0 +1,30 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Inter', sans-serif;
+  background-color: #f8f9fa;
+  color: #2d3436;
+  line-height: 1.6;
+  padding-top: 70px;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
