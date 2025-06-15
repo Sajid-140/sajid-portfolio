@@ -1,0 +1,103 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.contact-section {
+  background-color: #2d375b;
+  padding: 60px 10%;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #ffc107;
+  position: relative;
+  text-align: center;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 4px;
+  background: #ab8718;
+  margin-top: 10px;
+}
+
+.contact-description {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.contact-details p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.contact-details a {
+  color: #62b4eb;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a.fa {
+  padding: 15px;
+  font-size: 24px;
+  width: 50px;
+  margin: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.fa-facebook {
+  background: #2354be;
+}
+.fa-instagram {
+  background: #e4405f;
+}
+.fa-linkedin {
+  background: #0077b5;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+
+.footer {
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #2572b5;
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .social-icons a.fa {
+    font-size: 20px;
+    width: 45px;
+    padding: 12px;
+  }
+}

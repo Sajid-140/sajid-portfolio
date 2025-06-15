@@ -1,0 +1,16 @@
+{
+  "name": "sajid-portfolio",
+  "version": "1.0.0",
+  "description": "My professional portfolio",
+  "main": "index.html",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "Sajid Ali",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  }
+}
